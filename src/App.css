@@ -1,0 +1,26 @@
+.App{
+  background-color: rgb(199, 148, 148);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.inp{
+  padding-left: 6px;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+}
+.App button{
+  width: 90px;
+  height: 30px;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  font-size: 13px;
+}
